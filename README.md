@@ -16,7 +16,8 @@ In my code I use the following libraries:
 - scipy.signal
 - matplotlib.pyplot
 - pandas
-- and from scipy.signal I import resample, correlate, butter, filtfilt
+- from scipy.signal I import resample, correlate, butter, filtfilt
+- and from scipy.io.wavfile I import write as write_wav
 
 # The repository
 This repository contains the notebook with the code (_paper3_a14_audio.ipynb_), two audio files generated from the S1 and S5 signals (_S1_ECG1_sonified_a14.wav_ and _S5_FECG_sonified_a14.wav_), a PowerPoint presentation of the project (_paper presentation.pptx_), and an Excel file (.xlsx) summarizing the mean performance metrics across all items in the dataset (_metrix.xlsx_).
