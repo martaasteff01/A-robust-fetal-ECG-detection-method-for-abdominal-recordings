@@ -19,4 +19,4 @@ In my code I use the following libraries:
 - and from scipy.signal I import resample, correlate, butter, filtfilt
 
 # The repository
-This repository contain the notebook of the code, two audio traces plotted in the code corresponding to the S1 and S5, the PPT for the presentation of the project and 
+This repository contains the notebook with the code, two audio files generated from the S1 and S5 signals, a PowerPoint presentation of the project, and an Excel file (.xlsx) summarizing the mean performance metrics across all items in the dataset.
