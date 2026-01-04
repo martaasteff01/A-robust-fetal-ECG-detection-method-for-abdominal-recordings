@@ -8,7 +8,11 @@ I implemented the pipeline proposed in the paper "_A Robust Fetal ECG Detection 
 The pipeline is composed by several steps and starts by cleaning the signals, removing baseline drift with a high-pass FIR filter and eliminating power-line interference at 50 Hz. The signals are then upsampled to improve temporal resolution. Maternal QRS complexes are detected using PCA and cross-correlation, and the maternal ECG is subtracted to isolate the fetal signal. Fetal QRS complexes are subsequently identified, allowing the estimation of fetal heart rate. The pipeline also visualizes the average fetal ECG per channel and evaluates performance using metrics such as SNR, SIR, sensitivity, PPV, F1-score, and accuracy.
 
 # The dataset
-The set of data I use is the Set-A from https://physionet.org/content/challenge-2013/1.0.0/ and the code is specifically designed for the _a14_ signal from this dataset.
+The set of data I use is the Set-A from https://physionet.org/content/challenge-2013/1.0.0/. The code in this repository uses the _a14_ signal from Set-A by default, but it can be applied to any other recordings in the dataset with minimal modifications.
+
+The modifications neded for change the file are in the following lines:
+- CSV_PATH = "a14.csv"
+- OUTPUT_FILE = "S1_ECG1_sonified_a14.wav"
 
 # The libraries
 In my code I use the following libraries:
