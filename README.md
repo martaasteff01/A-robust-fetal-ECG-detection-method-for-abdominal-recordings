@@ -1,6 +1,6 @@
 # A-robust-fetal-ECG-detection-method-for-abdominal-recordings
 
-Python pipeline for robust fetal ECG (FECG) detection from non-invasive maternal abdominal ECG (AECG) signals. It extracts fetal heart activity from signals containing both maternal ECG (MECG) and fetal ECG, detects fetal QRS complexes, and estimates the Fetal Heart Rate (FHR).
+Python pipeline for robust fetal ECG (FECG) detection from non-invasive maternal abdominal ECG (AECG) signals. It extracts fetal heart activity from signals containing both maternal ECG (MECG) and fetal ECG (FECg), detects fetal QRS complexes, and estimates the Fetal Heart Rate (FHR).
 
 # The paper
 I implemented the pipeline proposed in the paper "_A Robust Fetal ECG Detection Method for Abdominal Recordings_" by Suzanna M. M. Martens, Chiara Rabotti, Massimo Mischi, and Rob J. Sluijter.
